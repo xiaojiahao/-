@@ -1,0 +1,15 @@
+POST http://106.15.199.210:8081/file/list HTTP/1.1
+content-type: application/json
+
+{
+    "pathRoot": ""
+}
+
+
+POST http://106.15.199.210:8081/user/validate HTTP/1.1
+content-type: application/json
+
+{
+    "username": "1",
+    "password":"1"
+}
